@@ -23,5 +23,200 @@
     "question": "¿En qué año llegó el hombre a la Luna por primera vez?",
     "answer": "1969",
     "source": "propia"
+  },
+  {
+    "question": "¿Quién pintó 'Las Meninas'?",
+    "answer": "Diego Velázquez",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué museo se encuentra el Guernica de Picasso?",
+    "answer": "Museo Reina Sofía, en Madrid",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué arquitecto diseñó la Sagrada Familia de Barcelona?",
+    "answer": "Antoni Gaudí",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién esculpió 'El Pensador'?",
+    "answer": "Auguste Rodin",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué movimiento artístico perteneció Salvador Dalí?",
+    "answer": "Surrealismo",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "answer": "476",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué reina española envió a Cristóbal Colón a las Indias?",
+    "answer": "Isabel la Católica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el proceso histórico de conquista cristiana de la península ibérica a los musulmanes?",
+    "answer": "la Reconquista",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué año comenzó la Guerra Civil Española?",
+    "answer": "1936",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué imperio construyó el Coliseo de Roma?",
+    "answer": "el Imperio Romano",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué localidad vizcaína se encuentra el árbol símbolo de las libertades vascas?",
+    "answer": "Gernika (Guernica)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el primer emperador romano?",
+    "answer": "Augusto",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "answer": "el fémur",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué planeta es conocido como el planeta rojo?",
+    "answer": "Marte",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el elemento químico más abundante en el universo?",
+    "answer": "el hidrógeno",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué gas es esencial para la respiración humana?",
+    "answer": "el oxígeno",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién formuló la teoría de la relatividad?",
+    "answer": "Albert Einstein",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "answer": "la piel",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué científico español, premio Nobel, formuló la teoría de la neurona?",
+    "answer": "Santiago Ramón y Cajal",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos jugadores de un equipo de fútbol están en el campo a la vez?",
+    "answer": "11",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué ciudad se celebraron los Juegos Olímpicos de 1992?",
+    "answer": "Barcelona",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos aros tiene el símbolo olímpico?",
+    "answer": "5",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el deporte de raqueta y pelota muy popular en el País Vasco, jugado tradicionalmente en frontón?",
+    "answer": "la pelota vasca",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+    "answer": "cada 4 años",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué banda británica compuso el álbum 'Abbey Road'?",
+    "answer": "The Beatles",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién dirigió la película 'El laberinto del fauno'?",
+    "answer": "Guillermo del Toro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué instrumento toca tradicionalmente el txistulari en la música vasca?",
+    "answer": "el txistu",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué escritor español escribió 'Don Quijote de la Mancha'?",
+    "answer": "Miguel de Cervantes",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el animal terrestre más rápido del mundo?",
+    "answer": "el guepardo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos corazones tiene un pulpo?",
+    "answer": "3",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos litros de sangre tiene aproximadamente el cuerpo de un adulto?",
+    "answer": "unos 5 litros",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "answer": "la Ciudad del Vaticano",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama la forma de gobierno actual de España?",
+    "answer": "monarquía parlamentaria",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué año se aprobó la Constitución Española actual?",
+    "answer": "1978",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de la Comunidad Autónoma Vasca (Euskadi)?",
+    "answer": "Vitoria-Gasteiz",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama la cámara baja del parlamento español?",
+    "answer": "el Congreso de los Diputados",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el pico más alto de la península ibérica?",
+    "answer": "el Mulhacén",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el río más largo de la península ibérica?",
+    "answer": "el Tajo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué mar baña la costa norte de Euskal Herria?",
+    "answer": "el mar Cantábrico",
+    "source": "propia"
   }
 ]
