@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { fetchReplacementQuestion } from '../questionBank';
 
 const BULB_COUNT = 10;
 
@@ -6,15 +7,19 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
   const totalTurns = players.length * rounds;
 
   const [turnIndex, setTurnIndex] = useState(0);
+  const [localDeck, setLocalDeck] = useState(deck);
   const [scores, setScores] = useState(() =>
     Object.fromEntries(players.map((p) => [p, 0]))
   );
   const [remaining, setRemaining] = useState(seconds);
   const [phase, setPhase] = useState('question'); // 'question' | 'revealed'
+  const [isReplacing, setIsReplacing] = useState(false);
+  const [replaceError, setReplaceError] = useState('');
+  const [timerKey, setTimerKey] = useState(0);
   const intervalRef = useRef(null);
 
   const currentPlayer = players[turnIndex % players.length];
-  const currentQuestion = deck[turnIndex];
+  const currentQuestion = localDeck[turnIndex];
 
   useEffect(() => {
     if (phase !== 'question') return undefined;
@@ -32,7 +37,7 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
 
     return () => clearInterval(intervalRef.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [turnIndex, phase]);
+  }, [turnIndex, phase, timerKey]);
 
   const bulbsLit = useMemo(() => {
     return Math.ceil((remaining / seconds) * BULB_COUNT);
@@ -41,6 +46,35 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
   function handleReveal() {
     clearInterval(intervalRef.current);
     setPhase('revealed');
+  }
+
+  async function handleInvalid() {
+    clearInterval(intervalRef.current);
+    setIsReplacing(true);
+    setReplaceError('');
+
+    const usedQuestions = localDeck
+      .filter(Boolean)
+      .map((q) => q.question);
+    const replacement = await fetchReplacementQuestion(usedQuestions);
+
+    setIsReplacing(false);
+
+    if (!replacement) {
+      setReplaceError(
+        'No se encontró ninguna pregunta de repuesto. Puedes intentarlo de nuevo o seguir con esta.'
+      );
+      return;
+    }
+
+    setLocalDeck((prev) => {
+      const updated = [...prev];
+      updated[turnIndex] = replacement;
+      return updated;
+    });
+    setRemaining(seconds);
+    setPhase('question');
+    setTimerKey((k) => k + 1);
   }
 
   function goToNextTurn(scoreDelta) {
@@ -57,6 +91,8 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
     setTurnIndex(next);
     setRemaining(seconds);
     setPhase('question');
+    setReplaceError('');
+    setTimerKey((k) => k + 1);
   }
 
   if (!currentQuestion) {
@@ -90,7 +126,12 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
         <p className="timer-number">{remaining}s</p>
 
         {phase === 'question' && (
-          <button className="btn-primary" onClick={handleReveal} type="button">
+          <button
+            className="btn-primary"
+            onClick={handleReveal}
+            type="button"
+            disabled={isReplacing}
+          >
             Revelar respuesta
           </button>
         )}
@@ -106,6 +147,7 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
                 className="btn-correct"
                 type="button"
                 onClick={() => goToNextTurn(1)}
+                disabled={isReplacing}
               >
                 ✅ Acertó
               </button>
@@ -113,12 +155,24 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
                 className="btn-miss"
                 type="button"
                 onClick={() => goToNextTurn(0)}
+                disabled={isReplacing}
               >
                 ❌ Falló
               </button>
             </div>
           </div>
         )}
+
+        <button
+          className="btn-ghost"
+          type="button"
+          onClick={handleInvalid}
+          disabled={isReplacing}
+        >
+          {isReplacing ? 'Buscando otra pregunta…' : '🚫 Pregunta inválida'}
+        </button>
+
+        {replaceError && <p className="error-text">{replaceError}</p>}
 
         <div className="mini-scoreboard">
           {players.map((p) => (
