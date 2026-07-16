@@ -3,6 +3,24 @@ import { fetchReplacementQuestion } from '../questionBank';
 
 const BULB_COUNT = 10;
 
+// Paleta de colores para diferenciar a cada jugador en la etiqueta de turno
+// y en el marcador. Se asignan por orden de creación, con "vuelta" si hay
+// más jugadores que colores.
+const PLAYER_COLORS = [
+  '#F5B942', // ámbar
+  '#6FA8DC', // azul
+  '#7FD9A8', // menta
+  '#E8A5C4', // rosa
+  '#C9A6F5', // lavanda
+  '#F5A25F', // naranja
+  '#8FE0E0', // cian
+  '#A8B4E0', // periwinkle
+];
+
+function colorForPlayerIndex(index) {
+  return PLAYER_COLORS[index % PLAYER_COLORS.length];
+}
+
 export default function GameScreen({ players, rounds, seconds, deck, onGameOver }) {
   const totalTurns = players.length * rounds;
 
@@ -20,6 +38,7 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
 
   const currentPlayer = players[turnIndex % players.length];
   const currentQuestion = localDeck[turnIndex];
+  const currentPlayerColorIndex = turnIndex % players.length;
 
   useEffect(() => {
     if (phase !== 'question') return undefined;
@@ -120,10 +139,15 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
               : 'Pregunta de Open Trivia DB'
           }
         >
-          {currentQuestion.source === 'propia' ? 'OPI' : 'ODDB'}
+          {currentQuestion.source === 'propia' ? 'OPI' : 'OTDB'}
         </span>
 
-        <div className="turn-tag">Turno de {currentPlayer}</div>
+        <div
+          className="turn-tag"
+          style={{ background: colorForPlayerIndex(currentPlayerColorIndex) }}
+        >
+          Turno de {currentPlayer}
+        </div>
         <div className="progress-text">
           Pregunta {turnIndex + 1} de {totalTurns}
         </div>
@@ -190,8 +214,12 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
         {replaceError && <p className="error-text">{replaceError}</p>}
 
         <div className="mini-scoreboard">
-          {players.map((p) => (
-            <span key={p} className={p === currentPlayer ? 'active-score' : ''}>
+          {players.map((p, idx) => (
+            <span
+              key={p}
+              className={p === currentPlayer ? 'active-score' : ''}
+              style={p === currentPlayer ? { color: colorForPlayerIndex(idx) } : undefined}
+            >
               {p}: {scores[p]}
             </span>
           ))}
