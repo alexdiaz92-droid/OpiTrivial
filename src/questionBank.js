@@ -38,6 +38,35 @@ function shuffle(array) {
 }
 
 /**
+ * Busca una pregunta de reemplazo para sustituir una marcada como inválida.
+ * Prioriza preguntas propias no usadas todavía en la partida; si no quedan,
+ * recurre a Open Trivia DB, reintentando para evitar duplicados.
+ * @param {string[]} excludeQuestions - textos de las preguntas ya presentes en la partida
+ */
+export async function fetchReplacementQuestion(excludeQuestions) {
+  const excludeSet = new Set(
+    excludeQuestions.map((q) => q.trim().toLowerCase())
+  );
+
+  const unusedLocal = preguntasPropias.filter(
+    (q) => !excludeSet.has(q.question.trim().toLowerCase())
+  );
+  if (unusedLocal.length > 0) {
+    const pool = shuffle(unusedLocal);
+    return pool[0];
+  }
+
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const [fresh] = await fetchFromOpenTrivia(1);
+    if (fresh && !excludeSet.has(fresh.question.trim().toLowerCase())) {
+      return fresh;
+    }
+  }
+
+  return null;
+}
+
+/**
  * Construye el mazo de preguntas para una partida, combinando
  * las preguntas propias con preguntas obtenidas de Open Trivia DB.
  * @param {number} totalNeeded - número total de preguntas que necesita la partida
