@@ -1,5 +1,21 @@
 import preguntasPropias from './data/preguntas.json';
 
+// Categorías de Open Trivia DB que no queremos mostrar (nombres tal y como
+// los devuelve la propia API, en minúsculas para comparar sin distinguir mayúsculas).
+const EXCLUDED_CATEGORIES = new Set([
+  'entertainment: music',
+  'entertainment: musicals & theatres',
+  'entertainment: television',
+  'entertainment: video games',
+  'celebrities',
+  'entertainment: comics',
+  'entertainment: japanese anime & manga',
+  'entertainment: cartoon & animations',
+]);
+
+// Solo aceptamos preguntas de dificultad fácil o media.
+const ALLOWED_DIFFICULTIES = new Set(['easy', 'medium']);
+
 // Open Trivia DB devuelve el texto con entidades HTML (&quot;, &#039;, etc.)
 // Este helper las decodifica usando el propio DOM del navegador.
 function decodeHtml(html) {
@@ -29,15 +45,29 @@ async function translateToSpanish(text) {
 async function fetchFromOpenTrivia(amount) {
   if (amount <= 0) return [];
   try {
-    const res = await fetch(
-      `https://opentdb.com/api.php?amount=${Math.min(amount, 50)}&type=multiple`
-    );
+    // Pedimos siempre el máximo permitido (50) sin filtrar por categoría ni
+    // dificultad en la propia llamada, porque la API solo admite un único
+    // valor de cada una por petición. Filtramos aquí, en nuestro código, para
+    // poder excluir varias categorías y dos dificultades a la vez.
+    const res = await fetch(`https://opentdb.com/api.php?amount=50&type=multiple`);
     if (!res.ok) throw new Error('Respuesta no válida de Open Trivia DB');
     const data = await res.json();
     if (!data.results) return [];
 
+    const filtered = data.results.filter((item) => {
+      const categoryOk = !EXCLUDED_CATEGORIES.has(
+        item.category.trim().toLowerCase()
+      );
+      const difficultyOk = ALLOWED_DIFFICULTIES.has(
+        item.difficulty.trim().toLowerCase()
+      );
+      return categoryOk && difficultyOk;
+    });
+
+    const selected = filtered.slice(0, amount);
+
     return await Promise.all(
-      data.results.map(async (item) => {
+      selected.map(async (item) => {
         const questionEn = decodeHtml(item.question);
         const answerEn = decodeHtml(item.correct_answer);
         const [question, answer] = await Promise.all([
@@ -102,8 +132,8 @@ export async function fetchReplacementQuestion(excludeQuestions) {
 
 /**
  * Construye el mazo de preguntas para una partida, mezclando de forma
- * indiscriminada preguntas propias y preguntas de Open Trivia DB (traducidas),
- * sin priorizar ninguna de las dos fuentes.
+ * indiscriminada preguntas propias y preguntas de Open Trivia DB (filtradas
+ * por categoría/dificultad y traducidas), sin priorizar ninguna de las dos fuentes.
  * @param {number} totalNeeded - número total de preguntas que necesita la partida
  */
 export async function buildQuestionDeck(totalNeeded) {
@@ -113,8 +143,8 @@ export async function buildQuestionDeck(totalNeeded) {
   let combined = shuffle([...localCandidates, ...apiCandidates]);
 
   // Red de seguridad: si por lo que sea no hay suficientes (p.ej. sin
-  // conexión y pocas preguntas propias disponibles), completamos con el
-  // resto de preguntas propias que no se hayan usado todavía.
+  // conexión, o el filtrado de categorías/dificultad deja pocas de la API),
+  // completamos con el resto de preguntas propias que no se hayan usado todavía.
   if (combined.length < totalNeeded) {
     const usedQuestions = new Set(
       combined.map((q) => q.question.trim().toLowerCase())
