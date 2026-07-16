@@ -1,0 +1,1782 @@
+[
+  {
+    "question": "¿Qué significa \"Honolulu\"?",
+    "answer": "Puerto abrigado",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos litros de combustible consume un jumbo durante el despegue?",
+    "answer": "Entre 15.000 y 19.000",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama la bolsa de valores de París?",
+    "answer": "La Bourse",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde murió Napoleón Bonaparte en el exilio?",
+    "answer": "Santa Elena",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el lema de los tres mosqueteros?",
+    "answer": "Uno para todos y todos para uno",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué nacionalidad era el escultor Brancusi?",
+    "answer": "Rumano",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tipo de tapón inventaron los monjes?",
+    "answer": "El corcho",
+    "source": "propia"
+  },
+  {
+    "question": "En el cuerpo, ¿qué glándula produce la hormona luteinizante?",
+    "answer": "La hipófisis",
+    "source": "propia"
+  },
+  {
+    "question": "Fútbol americano: los Denver ___",
+    "answer": "Broncos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué es el raku?",
+    "answer": "Cerámica japonesa",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país los días de la semana incluyen \"día del fuego\", \"día del agua\" y \"día de la madera\"?",
+    "answer": "Japón (martes, miércoles, jueves)",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué color es la llama al quemar potasio?",
+    "answer": "Violeta/púrpura",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién se convirtió en primer ministro de Cuba en 1959?",
+    "answer": "Fidel Castro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Filipinas?",
+    "answer": "Manila",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién formuló el principio de incertidumbre?",
+    "answer": "Heisenberg",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el telescopio puesto en órbita en los años ochenta?",
+    "answer": "El Hubble",
+    "source": "propia"
+  },
+  {
+    "question": "Arlanda es el aeropuerto que da servicio a qué ciudad europea",
+    "answer": "Estocolmo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama un grupo de gansos?",
+    "answer": "Bandada",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué festival de música reunió a más de 400.000 personas en 1969?",
+    "answer": "Woodstock",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué se le teme en la hipopotomonstrosesquipedaliofobia?",
+    "answer": "A las palabras largas",
+    "source": "propia"
+  },
+  {
+    "question": "En el ajedrez, ¿qué pieza tiene más libertad de movimiento?",
+    "answer": "La reina",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué alimento occidental popular prohibió Singapur por generar mucha basura?",
+    "answer": "El chicle",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el mineral más importante para huesos y dientes fuertes?",
+    "answer": "El calcio",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué líder asiático era conocido como \"el pequeño santo moreno\"?",
+    "answer": "Mahatma Gandhi",
+    "source": "propia"
+  },
+  {
+    "question": "¿De quién imprimió el servicio postal de EE. UU. 500 millones de sellos en 1993?",
+    "answer": "Elvis (Presley)",
+    "source": "propia"
+  },
+  {
+    "question": "El lago Vänern es el más grande de qué país",
+    "answer": "Suecia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién gobernó la URSS entre 1917 y 1922?",
+    "answer": "Vladímir Lenin",
+    "source": "propia"
+  },
+  {
+    "question": "La isolofobia es el miedo a",
+    "answer": "La soledad, estar solo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llamaba la esposa del rey Acab, a quien Jehú ordenó arrojar por una ventana hasta la muerte?",
+    "answer": "Jezabel",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tienen en común Julieta, Cleopatra y Marco Antonio?",
+    "answer": "Se suicidaron",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el primero en demostrar que los planetas se mueven en órbitas elípticas?",
+    "answer": "Kepler",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién ganó el título masculino del US Open de tenis en 1990 con solo 19 años?",
+    "answer": "Pete Sampras",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tuvieron que superar Bruce Willis, Harvey Keitel y Winston Churchill?",
+    "answer": "La tartamudez",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la mayor de las Islas Canarias?",
+    "answer": "Tenerife",
+    "source": "propia"
+  },
+  {
+    "question": "Un elefante tiene 400.000 qué en la trompa",
+    "answer": "Músculos",
+    "source": "propia"
+  },
+  {
+    "question": "La cordillera de los Zagros está en qué país",
+    "answer": "Irán",
+    "source": "propia"
+  },
+  {
+    "question": "En Corea del Sur, ¿qué deben denunciar los agentes de tráfico?",
+    "answer": "Los sobornos que reciben de los turistas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue responsable de expulsar a los ingleses de Escocia en 1297?",
+    "answer": "William Wallace",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde es tradicional comer pollo frito y tarta de fresas en Nochebuena?",
+    "answer": "Japón",
+    "source": "propia"
+  },
+  {
+    "question": "Fuera de Polonia, ¿en qué ciudad vive la mayor población polaca?",
+    "answer": "Chicago",
+    "source": "propia"
+  },
+  {
+    "question": "En \"Salvar al soldado Ryan\", ¿cuál era el nombre de pila del soldado Ryan?",
+    "answer": "James",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo murió Jorge II?",
+    "answer": "Se cayó del retrete",
+    "source": "propia"
+  },
+  {
+    "question": "Cada día en EE. UU. la gente roba 20.000 dólares de dónde",
+    "answer": "De las máquinas expendedoras",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde está la mina más grande del mundo?",
+    "answer": "Sudáfrica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el cordón que une a una madre con su hijo no nacido?",
+    "answer": "El cordón umbilical",
+    "source": "propia"
+  },
+  {
+    "question": "¿Por qué es conocido Joseph Cyril Bamford?",
+    "answer": "Por la excavadora JCB",
+    "source": "propia"
+  },
+  {
+    "question": "Un átomo está compuesto por estas 3 partículas subatómicas: electrón, neutrón y _____",
+    "answer": "Protón",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál era conocida como la isla de las especias?",
+    "answer": "Zanzíbar",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el índice de la bolsa de Tokio?",
+    "answer": "El Nikkei",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué se obtiene si un burro macho se cruza con una yegua?",
+    "answer": "Una mula",
+    "source": "propia"
+  },
+  {
+    "question": "En el País de las Maravillas, ¿quién sacó un reloj del bolsillo de su chaleco y descubrió que llegaba tarde?",
+    "answer": "El Conejo Blanco",
+    "source": "propia"
+  },
+  {
+    "question": "¿Los dientes de qué animal usaban los indígenas como hojas de cuchillo?",
+    "answer": "El castor",
+    "source": "propia"
+  },
+  {
+    "question": "La variedad azul y valiosa del corindón se llama:",
+    "answer": "Zafiro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Bajo qué se anima a la gente a besarse?",
+    "answer": "El muérdago",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se describe a una persona sin pigmento en la piel?",
+    "answer": "Albino",
+    "source": "propia"
+  },
+  {
+    "question": "En \"El diario de Bridget Jones\", ¿quién interpretó a Bridget Jones?",
+    "answer": "Renée Zellweger",
+    "source": "propia"
+  },
+  {
+    "question": "¿A orillas de qué río está Roma?",
+    "answer": "El Tíber",
+    "source": "propia"
+  },
+  {
+    "question": "¿A quién reconoce el 96% de los niños estadounidenses?",
+    "answer": "Ronald McDonald",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país tiene más librerías per cápita?",
+    "answer": "Nueva Zelanda",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué estado de EE. UU. tiene menos lluvia?",
+    "answer": "Nevada",
+    "source": "propia"
+  },
+  {
+    "question": "Saanen, Hongtong y Toggenburg son razas de qué animal",
+    "answer": "Cabras",
+    "source": "propia"
+  },
+  {
+    "question": "El helecho plateado es el emblema del equipo de rugby de qué país",
+    "answer": "Nueva Zelanda",
+    "source": "propia"
+  },
+  {
+    "question": "¿En honor a qué reina se nombraron las Islas Vírgenes en 1627?",
+    "answer": "Isabel I",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el nombre colectivo para un grupo de gaviotas?",
+    "answer": "Colonia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué santo se dice que llevó su propia cabeza durante seis millas tras su muerte?",
+    "answer": "San Dionisio",
+    "source": "propia"
+  },
+  {
+    "question": "Cinco de los seis Village People tienen qué",
+    "answer": "Bigote",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién es el padre de Aladdín?",
+    "answer": "Mustafá el sastre",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué puede ser una tipografía, un estilo arquitectónico o un tipo de novela?",
+    "answer": "Gótico",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país está el campo de batalla de Waterloo?",
+    "answer": "Bélgica",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país actual se encuentra la región conocida como Transilvania?",
+    "answer": "Rumanía",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el hombre del año de la revista Time en 1938?",
+    "answer": "Adolf Hitler",
+    "source": "propia"
+  },
+  {
+    "question": "En EE. UU., ¿qué profesión tiene un CI medio de 104?",
+    "answer": "Policía",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué actor protagonizó \"El bueno, el feo y el malo\"?",
+    "answer": "Clint Eastwood",
+    "source": "propia"
+  },
+  {
+    "question": "El edificio más alto del hemisferio sur está en qué ciudad",
+    "answer": "Melbourne",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la moneda de Polonia?",
+    "answer": "El zloty",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se conocía antes a Sri Lanka?",
+    "answer": "Ceilán",
+    "source": "propia"
+  },
+  {
+    "question": "Assen, en los Países Bajos, está asociada sobre todo a qué deporte",
+    "answer": "El motociclismo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué dos frutas son anagramas entre sí?",
+    "answer": "Limón y melón",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país serías rico en \"leu\"?",
+    "answer": "Rumanía",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué revista fue la primera en publicar un holograma en su portada?",
+    "answer": "National Geographic",
+    "source": "propia"
+  },
+  {
+    "question": "¿De quién es el cubo tridimensional que se puso de moda en los 70 y 80?",
+    "answer": "El cubo de Rubik",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué continente está el río Mackenzie?",
+    "answer": "América del Norte",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué Juegos Olímpicos boicoteó EE. UU.?",
+    "answer": "Los de 1980 (Moscú)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ser vivo puede llegar a ser 30 veces más grande que una ballena azul?",
+    "answer": "La secuoya gigante",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Seychelles?",
+    "answer": "Victoria",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué fabricante de guitarras creó la Stratocaster?",
+    "answer": "Fender",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál era la principal causa de muerte a finales del siglo XIX?",
+    "answer": "La tuberculosis",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué año se refería Bryan Adams en su canción de 1985?",
+    "answer": "1969 (\"Summer of '69\")",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el símbolo químico del hierro?",
+    "answer": "Fe",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué se dedicaba Sting antes de ser estrella del rock?",
+    "answer": "Era profesor",
+    "source": "propia"
+  },
+  {
+    "question": "Adolf Hitler tenía una fobia: ¿cuál?",
+    "answer": "Claustrofobia",
+    "source": "propia"
+  },
+  {
+    "question": "En la Biblia, ¿a quién se atribuye el Libro de los Proverbios?",
+    "answer": "A Salomón",
+    "source": "propia"
+  },
+  {
+    "question": "La sensación de haber vivido algo antes se conoce como _______",
+    "answer": "Déjà vu",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el primer novelista en entregar un manuscrito mecanografiado a su editor?",
+    "answer": "Mark Twain",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué colegio va Harry Potter?",
+    "answer": "Hogwarts",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué empresa emitió, durante la Super Bowl de 1984, uno de los anuncios considerados mejores de la historia de la televisión?",
+    "answer": "Apple",
+    "source": "propia"
+  },
+  {
+    "question": "\"Radio Ga Ga\" fue un éxito de 1984 de quién",
+    "answer": "Queen",
+    "source": "propia"
+  },
+  {
+    "question": "El tratamiento de enfermedades con sustancias químicas tóxicas para los microorganismos causantes se llama ____________",
+    "answer": "Quimioterapia",
+    "source": "propia"
+  },
+  {
+    "question": "Nombra a los famosos 3 tenores",
+    "answer": "José Carreras, Plácido Domingo y Luciano Pavarotti",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué animal es responsable de más muertes al año en EE. UU.?",
+    "answer": "Los perros",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país estarías si aterrizaras justo en medio de Plock?",
+    "answer": "Polonia",
+    "source": "propia"
+  },
+  {
+    "question": "Cushat, Rock y Stock son tipos de qué animal",
+    "answer": "Palomas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Liberia?",
+    "answer": "Monrovia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde está en Egipto la tumba de Tutankamón?",
+    "answer": "En el Valle de los Reyes, Luxor",
+    "source": "propia"
+  },
+  {
+    "question": "Si sufres disritmia circadiana, ¿qué tienes?",
+    "answer": "Jet lag",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué personaje de Shakespeare tiene más líneas de diálogo?",
+    "answer": "Hamlet",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién dijo \"no preguntes qué puede hacer tu país por ti, sino qué puedes hacer tú por tu país\"?",
+    "answer": "John F. Kennedy",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué se mide la velocidad de un barco?",
+    "answer": "Nudos",
+    "source": "propia"
+  },
+  {
+    "question": "En un producto químico, ¿qué significa una calavera con tibias cruzadas?",
+    "answer": "Tóxico",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quiénes patrullan Gotham City?",
+    "answer": "Batman y Robin",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién interpretó a Han Solo en \"Star Wars\"?",
+    "answer": "Harrison Ford",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde se celebraron los Juegos Olímpicos de 1988?",
+    "answer": "Seúl, Corea del Sur",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué año comenzó la guerra de Vietnam?",
+    "answer": "1954",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de la República Dominicana?",
+    "answer": "Santo Domingo",
+    "source": "propia"
+  },
+  {
+    "question": "Según los psicólogos, los hombres que hacen ________ durante el sexo son inseguros",
+    "answer": "Se dejan puestos los calcetines",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué se obtiene al añadir fruta fresca al vino tinto?",
+    "answer": "Sangría",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país es sistemáticamente el mayor consumidor de cerveza del mundo?",
+    "answer": "República Checa",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el equivalente griego del dios romano Marte?",
+    "answer": "Ares",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué elemento químico recibe su nombre de la palabra latina para \"rojo\"?",
+    "answer": "Rubidio",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país fue anfitrión de los Juegos Olímpicos de 2004?",
+    "answer": "Grecia (Atenas)",
+    "source": "propia"
+  },
+  {
+    "question": "En música, ¿qué significa \"pianissimo\"?",
+    "answer": "Muy suave",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país se encuentra la mayor población musulmana del mundo?",
+    "answer": "Indonesia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el único país del mundo cuyo nombre empieza por \"O\"?",
+    "answer": "Omán",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué día es el primero de la Semana Santa en el calendario cristiano?",
+    "answer": "El Domingo de Ramos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué batalla famosa tuvo lugar del 1 al 3 de julio de 1863?",
+    "answer": "Gettysburg",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué oficio se usan chibaletes y componedores?",
+    "answer": "La imprenta",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué es un eritrocito?",
+    "answer": "Un glóbulo rojo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué se fundó en el Reino Unido en 1694 a causa de la guerra con Francia?",
+    "answer": "El Banco de Inglaterra",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué se refiere la \"litosfera\"?",
+    "answer": "A la corteza terrestre",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el país africano más septentrional por el que pasa el meridiano de Greenwich?",
+    "answer": "Argelia",
+    "source": "propia"
+  },
+  {
+    "question": "Karl Landsteiner ganó el Nobel en 1930 por qué descubrimiento médico",
+    "answer": "Los grupos sanguíneos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué delito ha cometido alguien condenado por regicidio?",
+    "answer": "Matar al rey",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tipo de ácido se usa en las baterías de coche?",
+    "answer": "Ácido sulfúrico",
+    "source": "propia"
+  },
+  {
+    "question": "La Costa de Oro se independizó de Gran Bretaña en 1957 y pasó a llamarse",
+    "answer": "Ghana",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos corazones tiene la lombriz de tierra común?",
+    "answer": "10",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántas fichas hay que colocar para lograr un \"bingo\" en el Scrabble?",
+    "answer": "7",
+    "source": "propia"
+  },
+  {
+    "question": "En la mitología griega, ¿qué forjaron los cíclopes para Zeus?",
+    "answer": "Rayos",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué deporte se realiza un \"Adolf\"?",
+    "answer": "Trampolín, mortal adelante con 3,5 giros",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el compañero canino de Tintín?",
+    "answer": "Milú",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué océano vierte agua el río Amazonas?",
+    "answer": "El Atlántico",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tipo de restaurante popularizó el uso de cintas transportadoras?",
+    "answer": "Los restaurantes de sushi",
+    "source": "propia"
+  },
+  {
+    "question": "La knismolagnia es la excitación sexual provocada por…",
+    "answer": "Las cosquillas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama el miedo a la desnudez?",
+    "answer": "Nudofobia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país africano trasladó su capital a Abuya?",
+    "answer": "Nigeria",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país se encontró la Piedra de Rosetta?",
+    "answer": "Egipto",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama también el lobo de las praderas?",
+    "answer": "Coyote",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué isla, que también es un país, se encuentra el \"Pico de Adán\"?",
+    "answer": "Sri Lanka",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el primer futbolista profesional en ser nombrado Sir?",
+    "answer": "Sir Stanley Matthews",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué color es la punta de la cola del lince canadiense?",
+    "answer": "Negro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué palabra moderna viene del árabe \"hashishi\"?",
+    "answer": "Asesino",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ocurrió por primera vez en Disneyland California en marzo de 1981?",
+    "answer": "Un asesinato",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué color son las gorras del equipo de críquet de Australia?",
+    "answer": "Verde",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la palabra latina para \"cruce de tres caminos\"?",
+    "answer": "Trivia",
+    "source": "propia"
+  },
+  {
+    "question": "El 49% de los estadounidenses cena fuera qué día",
+    "answer": "El día de su cumpleaños",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué son el de Chihuahua, el de Nubia y el de Alaska?",
+    "answer": "Desiertos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el séptimo signo del zodiaco?",
+    "answer": "Libra",
+    "source": "propia"
+  },
+  {
+    "question": "El equipo de rugby de Nueva Zelanda se conoce como __________________",
+    "answer": "Los All Blacks",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué deporte fue Fred Perry campeón del mundo en 1929?",
+    "answer": "Tenis de mesa",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién está asociado a la dirección 221B de Baker Street, Londres?",
+    "answer": "Sherlock Holmes",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país es el mayor productor de queso?",
+    "answer": "Estados Unidos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama a los animales que comen tanto plantas como carne?",
+    "answer": "Omnívoros",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué continente vive de forma natural el avestruz?",
+    "answer": "África",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué idioma deriva en última instancia la palabra \"momia\"?",
+    "answer": "Del persa",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la única célula del cuerpo sin núcleo?",
+    "answer": "El glóbulo rojo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué estudia un onomástico?",
+    "answer": "Los nombres",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el color del luto en Turquía?",
+    "answer": "Violeta",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la universidad más antigua de EE. UU.?",
+    "answer": "Harvard",
+    "source": "propia"
+  },
+  {
+    "question": "La distancia alrededor de un círculo es su ____________",
+    "answer": "Circunferencia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país centroamericano se extiende más al norte?",
+    "answer": "Belice",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué sustituyó al inglés como idioma oficial de Kenia en 1974?",
+    "answer": "El suajili",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué fecha se independizó Estados Unidos?",
+    "answer": "El 4 de julio de 1776",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tecla está a la derecha de la T en un teclado?",
+    "answer": "Y",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el alimento principal de las morsas?",
+    "answer": "Almejas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el cuarto libro de la saga Harry Potter?",
+    "answer": "\"Harry Potter y el cáliz de fuego\"",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué ciudad china está el Ejército de Terracota?",
+    "answer": "Xi'an",
+    "source": "propia"
+  },
+  {
+    "question": "¿A quién llamaban \"El hombre del destino\"?",
+    "answer": "A Napoleón Bonaparte",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué alimento espeso, similar a las natillas, se obtiene al cuajar leche fresca artificialmente con bacterias?",
+    "answer": "El yogur",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la única ave que puede volar hacia atrás?",
+    "answer": "El colibrí",
+    "source": "propia"
+  },
+  {
+    "question": "La uranofobia es el miedo a ______",
+    "answer": "El cielo/paraíso",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué se convierte la cebada al prepararla para la elaboración de cerveza?",
+    "answer": "Malta",
+    "source": "propia"
+  },
+  {
+    "question": "La cantidad de qué sustancia en el granito determina su color",
+    "answer": "El feldespato",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién publicó el número uno \"Barbie Girl\" en octubre de 1997?",
+    "answer": "Aqua",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué roca produce la forma más barata y suave de papel de lija?",
+    "answer": "El pedernal",
+    "source": "propia"
+  },
+  {
+    "question": "En la mitología griega, ¿para quién forjaron los cíclopes los rayos?",
+    "answer": "Para Zeus",
+    "source": "propia"
+  },
+  {
+    "question": "¿A quién se conoce como \"Lady Soul\"?",
+    "answer": "Aretha Franklin",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué departamento usa el 65% de todo el papel comprado por el gobierno de EE. UU.?",
+    "answer": "El Departamento de Defensa",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué disciplinas incluye el biatlón?",
+    "answer": "Esquí de fondo y tiro",
+    "source": "propia"
+  },
+  {
+    "question": "____________ posee más reservas probadas de petróleo que cualquier otro país fuera de Oriente Medio",
+    "answer": "Venezuela",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el único dios griego importante cuyo equivalente romano tiene el mismo nombre?",
+    "answer": "Apolo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde puedes comprar un café con cruzeiros?",
+    "answer": "En Brasil",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la isla más grande del Océano Índico?",
+    "answer": "Madagascar",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué mar está Crimea?",
+    "answer": "El mar Negro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué mito se cree que inspiró el rinoceronte?",
+    "answer": "El unicornio",
+    "source": "propia"
+  },
+  {
+    "question": "\"Trismo\" es otro nombre de qué enfermedad",
+    "answer": "El tétanos",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué dos colores es una urraca?",
+    "answer": "Blanco y negro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el famoso teatro de ópera de Moscú?",
+    "answer": "El Bolshói",
+    "source": "propia"
+  },
+  {
+    "question": "La ciudad de Beersheba está en qué país",
+    "answer": "Israel",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país limita con Libia al este?",
+    "answer": "Egipto",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué evento deportivo se celebró por primera vez en 1903?",
+    "answer": "El Tour de Francia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién es el cantante de la banda The Police?",
+    "answer": "Sting",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué tipo de número no tiene más factores que 1 y él mismo?",
+    "answer": "Número primo",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país podrías gastar tugriks?",
+    "answer": "Mongolia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Por qué apareció la bandera francesa en algunos sellos británicos en 1969?",
+    "answer": "Para conmemorar el vuelo inaugural del Concorde",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país está más lejos de Nueva Zelanda en distancia?",
+    "answer": "España",
+    "source": "propia"
+  },
+  {
+    "question": "En la mitología griega, ¿qué monstruo tenía cabeza y pecho de mujer, cuerpo de león y alas de ave?",
+    "answer": "La esfinge",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál era el nombre alemán, antes de la guerra, de la ciudad báltica hoy rusa llamada Kaliningrado?",
+    "answer": "Königsberg",
+    "source": "propia"
+  },
+  {
+    "question": "¿A orillas de qué río está Varsovia?",
+    "answer": "El Vístula",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué animal siempre da a luz gemelos del mismo sexo?",
+    "answer": "El armadillo",
+    "source": "propia"
+  },
+  {
+    "question": "El Dr. Christiaan Barnard realizó en Sudáfrica en 1967 el primer qué del mundo",
+    "answer": "Trasplante de corazón",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuáles son las capitales de Siria, Marruecos y Libia?",
+    "answer": "Damasco, Rabat y Trípoli",
+    "source": "propia"
+  },
+  {
+    "question": "La temperatura a la que se forma el rocío se llama",
+    "answer": "El punto de rocío",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos hijos tuvieron Adán y Eva juntos?",
+    "answer": "Tres",
+    "source": "propia"
+  },
+  {
+    "question": "En EE. UU., la violencia doméstica alcanza su pico en qué día del año",
+    "answer": "El domingo de la Super Bowl",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué dos metales forman el latón?",
+    "answer": "Cobre y zinc",
+    "source": "propia"
+  },
+  {
+    "question": "Esta proteína da a la sangre su color rojo",
+    "answer": "La hemoglobina",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién protagoniza la película \"Tomb Raider\"?",
+    "answer": "Angelina Jolie",
+    "source": "propia"
+  },
+  {
+    "question": "Una enfermedad crónica del hígado",
+    "answer": "Cirrosis",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué equipo de fútbol juega de local en Stamford Bridge?",
+    "answer": "El Chelsea",
+    "source": "propia"
+  },
+  {
+    "question": "Los conciertos Opus 8, nº 1-4, de Vivaldi son más conocidos como qué",
+    "answer": "\"Las cuatro estaciones\"",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué evento deportivo anual entre 2 equipos comenzó en 1829?",
+    "answer": "La regata Oxford-Cambridge",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué filósofo danés escribió \"El concepto de la angustia\" y cuyas ideas sirvieron de base al existencialismo?",
+    "answer": "Søren Kierkegaard",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos tentáculos tiene un calamar?",
+    "answer": "Diez",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué bahía da el estrecho del Golden Gate?",
+    "answer": "A la bahía de San Francisco",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue el primer hombre en pisar la Luna?",
+    "answer": "Neil Armstrong",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el lago más grande del mundo, con casi 394.000 km²?",
+    "answer": "El mar Caspio",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál fue el primer gran éxito de Kevin Bacon?",
+    "answer": "\"Footloose\"",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántas medallas ganó la URSS en los Juegos Olímpicos de 1984?",
+    "answer": "Ninguna (no participó por el boicot)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ciudad creían los antiguos griegos que era el centro del mundo, sede de un famoso oráculo?",
+    "answer": "Delfos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué pequeña república formaba Yugoslavia junto con Serbia?",
+    "answer": "Montenegro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la tecla más grande de un teclado de ordenador estándar?",
+    "answer": "La barra espaciadora",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué verdura transformada viajó Cenicienta al baile?",
+    "answer": "Una calabaza",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el río más largo de EE. UU.?",
+    "answer": "El Misuri",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llama la comida permitida según las leyes dietéticas judías?",
+    "answer": "Kosher",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué estado de EE. UU. tiene el récord de mayor nevada en un día, registrado el 7 de febrero de 1916?",
+    "answer": "Alaska",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué número está en la posición de las 12 en punto de una diana?",
+    "answer": "20",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ciudad es conocida como Motown?",
+    "answer": "Detroit",
+    "source": "propia"
+  },
+  {
+    "question": "En Alemania, ¿dónde estarías si estuvieras en un \"Krankenhaus\"?",
+    "answer": "En un hospital",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué mar mediterráneo están las Cícladas?",
+    "answer": "En el mar Egeo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué parque ficticio es el hogar del oso Yogui?",
+    "answer": "Jellystone",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué color son los delfines del río Amazonas?",
+    "answer": "Rosas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el equivalente islámico de la Cruz Roja?",
+    "answer": "La Media Luna Roja",
+    "source": "propia"
+  },
+  {
+    "question": "La Copa Solheim es el equivalente femenino de qué famosa copa deportiva",
+    "answer": "La Ryder Cup",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos aros hay en la bandera olímpica?",
+    "answer": "Cinco",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuánto dura la carrera de resistencia de Le Mans?",
+    "answer": "24 horas",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué calle ficticia vive la pesadilla de Freddy Krueger?",
+    "answer": "Elm Street",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué contiene más cafeína: los granos de café o las hojas de té?",
+    "answer": "Las hojas de té",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué isla caribeña están las Montañas Azules?",
+    "answer": "Jamaica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién fue la primera mujer en cruzar el Atlántico sola en avión?",
+    "answer": "Amelia Earhart",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué función corporal mejora si duermes sobre el lado derecho?",
+    "answer": "La digestión",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué nutriente necesita el cuerpo para desarrollar músculo?",
+    "answer": "Las proteínas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué suceso célebre ocurrió el 24 de octubre de 1929?",
+    "answer": "El Crack del 29 (Jueves Negro)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué escritor de ciencia ficción desarrolló u las Leyes de la Robótica?",
+    "answer": "Isaac Asimov",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Brasil?",
+    "answer": "Brasilia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién patentó la maquinilla de afeitar de seguridad en 1895?",
+    "answer": "King Gillette",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país fue el primero en reconocer la independencia de EE. UU.?",
+    "answer": "Marruecos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la unidad monetaria básica de las Islas Salomón?",
+    "answer": "El dólar de Islas Salomón",
+    "source": "propia"
+  },
+  {
+    "question": "En la Segunda Guerra Mundial, los alemanes lanzaron la Operación Bernhard: ¿qué era?",
+    "answer": "Falsificación de billetes británicos",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué caracteriza a una nube \"nimbo\"?",
+    "answer": "Produce lluvia o nieve",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué era dios Pluto en la mitología griega?",
+    "answer": "De la riqueza. En la mitología romana, Dios del inframundo.",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué cervecero de Salford dio su nombre a la unidad de energía del Sistema Internacional?",
+    "answer": "Joule",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el estado más pequeño de EE. UU.?",
+    "answer": "Rhode Island",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántas pulgadas hay aproximadamente en un metro?",
+    "answer": "39 (39'37)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué se usó por primera vez como tratamiento médico en el año 2700 a. C., por el emperador chino Shen Nung?",
+    "answer": "La acupuntura",
+    "source": "propia"
+  },
+  {
+    "question": "En Estados Unidos, ¿cómo se conoce más comúnmente el 2 de febrero?",
+    "answer": "El Día de la Marmota",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué civilización fue la primera en medir el año?",
+    "answer": "Los babilonios",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué metal se usa en el filamento de una bombilla?",
+    "answer": "Tungsteno",
+    "source": "propia"
+  },
+  {
+    "question": "\"Smith\" es el apellido inglés más común: ¿cuál es el equivalente japonés?",
+    "answer": "Suzuki",
+    "source": "propia"
+  },
+  {
+    "question": "La temperatura a la que se produce la condensación se llama",
+    "answer": "Punto de rocío",
+    "source": "propia"
+  },
+  {
+    "question": "Botvinnik, Petrosian y Tal fueron todos campeones del mundo de qué",
+    "answer": "Ajedrez",
+    "source": "propia"
+  },
+  {
+    "question": "Libreville es la capital de ______",
+    "answer": "Gabón",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país sudamericano está el desierto de Atacama?",
+    "answer": "Chile",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde del cuerpo se encuentran el martillo, el yunque y el estribo?",
+    "answer": "En el oído interno",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la última prueba de un decatlón?",
+    "answer": "1500 metros",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué dan los pigmentos al cabello y la piel?",
+    "answer": "Color",
+    "source": "propia"
+  },
+  {
+    "question": "¿Marbella es un destino turístico de qué costa española?",
+    "answer": "La Costa del Sol",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué juguete se lanzó en 1957 y se puso de moda al instante entre los niños?",
+    "answer": "El hula-hoop",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el ingrediente principal del borsch?",
+    "answer": "La remolacha",
+    "source": "propia"
+  },
+  {
+    "question": "Nuestra galaxia se conoce comúnmente como ________",
+    "answer": "La Vía Láctea",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ciudad es la más densamente poblada del mundo?",
+    "answer": "Macao",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué director hizo \"Toro salvaje\" y \"Uno de los nuestros\"?",
+    "answer": "Martin Scorsese",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Camerún?",
+    "answer": "Yaundé",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué está formado por el duodeno, el yeyuno y el íleon?",
+    "answer": "El intestino delgado",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país aparecería primero en una lista alfabética de países?",
+    "answer": "Afganistán",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué persona real adoptó un nombre que significa \"hombre de acero\"?",
+    "answer": "Iósif Stalin",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué se acumula en los músculos de una persona con enfisema?",
+    "answer": "Aire",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué cordillera está en el norte de España, al oeste de los Pirineos?",
+    "answer": "La Cordillera Cantábrica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ha sustituido a la mecánica newtoniana a escala atómica?",
+    "answer": "La mecánica cuántica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué hay entre Estocolmo y Riga?",
+    "answer": "El mar Báltico",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué neozelandés fue el primer hombre en escalar el Everest?",
+    "answer": "Sir Edmund Hillary",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llaman las grandes olas causadas por terremotos?",
+    "answer": "Tsunamis",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el océano más grande?",
+    "answer": "El océano Pacífico",
+    "source": "propia"
+  },
+  {
+    "question": "Robert Recorde inventó a mediados del siglo XVI qué símbolo",
+    "answer": "El signo igual (=)",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué prohibió el ayatolá Jomeini en 1979?",
+    "answer": "La música en la radio",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién cantó \"Beat It\"?",
+    "answer": "Michael Jackson",
+    "source": "propia"
+  },
+  {
+    "question": "Una persona que provoca incendios de forma malintencionada es un/una _________",
+    "answer": "Pirómano",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ave pequeña no voladora es también el símbolo nacional de Nueva Zelanda?",
+    "answer": "El kiwi",
+    "source": "propia"
+  },
+  {
+    "question": "El koala come hojas de este árbol",
+    "answer": "El eucalipto",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué icono revolucionario fue asesinado el 9 de octubre de 1967?",
+    "answer": "Che Guevara",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué actor de la época del cine mudo era conocido como \"el hombre de las mil caras\"?",
+    "answer": "Lon Chaney",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Turkmenistán?",
+    "answer": "Asjabad",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde se fabricaron por primera vez los sombreros panamá?",
+    "answer": "En Perú",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué órgano del cuerpo se produce la insulina?",
+    "answer": "El páncreas",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cómo se llamaba el hijo de Cleopatra y Julio César?",
+    "answer": "Cesarión (Ptolomeo XV Cesarión)",
+    "source": "propia"
+  },
+  {
+    "question": "La práctica de que una mujer tenga varios maridos se llama",
+    "answer": "Poliandria",
+    "source": "propia"
+  },
+  {
+    "question": "¿Dónde se originaron los donuts?",
+    "answer": "En Holanda",
+    "source": "propia"
+  },
+  {
+    "question": "Un cuerpo humano normal tiene 46 qué",
+    "answer": "Cromosomas",
+    "source": "propia"
+  },
+  {
+    "question": "Nelis, Seckel, Forelle y Bosc son variedades de qué",
+    "answer": "Peras",
+    "source": "propia"
+  },
+  {
+    "question": "Los perros ladran. ¿Qué hacen los burros?",
+    "answer": "Rebuznar",
+    "source": "propia"
+  },
+  {
+    "question": "Los circuitos pueden conectarse en serie o en _________",
+    "answer": "Paralelo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién era el dios griego y romano del viento?",
+    "answer": "Eolo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué reabrió en 1975 tras 8 años cerrado?",
+    "answer": "El canal de Suez",
+    "source": "propia"
+  },
+  {
+    "question": "¿Para qué se usa el etilenglicol en los automóviles?",
+    "answer": "Como anticongelante",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántos segmentos forman el número 8 en un reloj digital?",
+    "answer": "Siete",
+    "source": "propia"
+  },
+  {
+    "question": "¿Londres y qué ciudad británica están unidas por el canal Grand Union? Nombra una de las dos.",
+    "answer": "Birmingham y Leicester",
+    "source": "propia"
+  },
+  {
+    "question": "¿Por qué se hizo famoso Mehmet Ali Ağca en 1981?",
+    "answer": "Por disparar al Papa Juan Pablo II",
+    "source": "propia"
+  },
+  {
+    "question": "Marduk era el creador del mundo para qué pueblo antiguo",
+    "answer": "Los babilonios",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué autor creó a James Bond?",
+    "answer": "Ian Fleming",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital de Surinam?",
+    "answer": "Paramaribo",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué deporte juegan los Miami Dolphins?",
+    "answer": "Fútbol americano",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué le tienes miedo si eres alectorofóbico?",
+    "answer": "A las gallinas",
+    "source": "propia"
+  },
+  {
+    "question": "El río Rímac atraviesa qué ciudad",
+    "answer": "Lima, Perú",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el mamífero terrestre más lento?",
+    "answer": "El perezoso",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país tiene la refinería de petróleo más grande del mundo?",
+    "answer": "Venezuela",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué país fue colonia Tanzania antes de estar bajo control británico?",
+    "answer": "Alemania",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuánto duró la Guerra de los Cien Años?",
+    "answer": "116 años",
+    "source": "propia"
+  },
+  {
+    "question": "¿A qué actor apodaron \"los músculos de Bruselas\"?",
+    "answer": "Jean-Claude Van Damme",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué producto fabricaba originalmente el gigante de telecomunicaciones Nokia?",
+    "answer": "Papel",
+    "source": "propia"
+  },
+  {
+    "question": "El puente de Carlos y la catedral de San Vito están en qué ciudad europea",
+    "answer": "Praga",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién escribió sobre Willy Wonka y la fábrica de chocolate?",
+    "answer": "Roald Dahl",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es el ingrediente principal del vidrio?",
+    "answer": "La arena",
+    "source": "propia"
+  },
+  {
+    "question": "¿A quién le compró EE. UU. las Islas Vírgenes?",
+    "answer": "A Dinamarca",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién abrió el primer cine en París en 1895?",
+    "answer": "Los hermanos Lumière",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué mató a Al Capone?",
+    "answer": "La sífilis",
+    "source": "propia"
+  },
+  {
+    "question": "En la mitología griega, Cronos y Rea eran los padres de quién",
+    "answer": "Zeus",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué país es el equipo de fútbol Anderlecht?",
+    "answer": "Bélgica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la capital más occidental de Europa?",
+    "answer": "Reykjavik",
+    "source": "propia"
+  },
+  {
+    "question": "Kr es el símbolo químico de qué elemento",
+    "answer": "El kriptón",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué mar desemboca el río Elba?",
+    "answer": "El mar del Norte",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué ciudad está el Pan de Azúcar?",
+    "answer": "Río de Janeiro",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué hace un \"geófago\"?",
+    "answer": "Come tierra",
+    "source": "propia"
+  },
+  {
+    "question": "En 1999, ¿qué gigante estadounidense del retail anunció la compra de la cadena Asda?",
+    "answer": "Walmart",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué estudia un ornitólogo?",
+    "answer": "Las aves",
+    "source": "propia"
+  },
+  {
+    "question": "¿En qué país nació el cantante Mika?",
+    "answer": "Líbano",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país limita con Egipto al sur?",
+    "answer": "Sudán",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué nacionalidad era el arquitecto Le Corbusier?",
+    "answer": "Suizo",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué significan las siglas OTAN?",
+    "answer": "Organización del Tratado del Atlántico Norte",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién es el miembro más joven de los Rolling Stones?",
+    "answer": "Keith Richards",
+    "source": "propia"
+  },
+  {
+    "question": "Calamares, pulpos y sepias son todos tipos de qué",
+    "answer": "Cefalópodos",
+    "source": "propia"
+  },
+  {
+    "question": "Esta rama de la física estudia las leyes generales que rigen el movimiento de los objetos materiales",
+    "answer": "La mecánica",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país latinoamericano continental no está ni en Sudamérica ni en Centroamérica?",
+    "answer": "México",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuántas calles tiene una piscina olímpica estándar?",
+    "answer": "Ocho",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué ciudad está construida sobre 118 islas?",
+    "answer": "Venecia",
+    "source": "propia"
+  },
+  {
+    "question": "¿Quién pintó \"El tres de mayo\"?",
+    "answer": "Francisco de Goya",
+    "source": "propia"
+  },
+  {
+    "question": "¿De qué obra de Shakespeare es esta línea: \"Buenas noches, buenas noches, la despedida es una pena tan dulce...\"?",
+    "answer": "\"Romeo y Julieta\"",
+    "source": "propia"
+  },
+  {
+    "question": "¿Cuál es la edad mínima del whisky escocés para poder venderse en el Reino Unido?",
+    "answer": "3 años",
+    "source": "propia"
+  },
+  {
+    "question": "¿Qué país celebra su día nacional el 14 de julio?",
+    "answer": "Francia",
+    "source": "propia"
+  }
+]
