@@ -42,7 +42,7 @@ export default function SetupScreen({ onStart, error: externalError }) {
     <div className="stage">
       <div className="card">
         <h1 className="marquee-title">
-          Noche de <span className="accent">Trivial</span>
+          <span className="accent">OPI</span> sabe de Trivial
         </h1>
         <p className="subtitle">Configura la partida antes de encender las luces.</p>
 
