@@ -57,6 +57,7 @@ input:focus-visible {
 }
 
 .card {
+  position: relative;
   width: 100%;
   max-width: 560px;
   background: var(--ink-panel);
@@ -200,6 +201,33 @@ input[type='number'] {
 .btn-primary:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 24px -8px rgba(245, 185, 66, 0.5);
+}
+
+.source-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  opacity: 0.85;
+  user-select: none;
+}
+
+.source-badge-propia {
+  background: var(--bulb);
+}
+
+.source-badge-api {
+  background: #6FA8DC;
 }
 
 /* ---------- Game screen ---------- */
