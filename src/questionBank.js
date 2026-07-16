@@ -16,6 +16,17 @@ const EXCLUDED_CATEGORIES = new Set([
 // Solo aceptamos preguntas de dificultad fácil o media.
 const ALLOWED_DIFFICULTIES = new Set(['easy', 'medium']);
 
+// Prefijos de pregunta (en inglés, tal como los devuelve la API) que no
+// encajan con nuestro formato: implican elegir entre varias obras/opciones
+// visibles en pantalla, y aquí solo mostramos la pregunta y una respuesta.
+const EXCLUDED_QUESTION_PREFIXES = [
+  'which of',
+  'in which film',
+  'in which movie',
+  'in which book',
+  'in which videogame',
+];
+
 // Open Trivia DB devuelve el texto con entidades HTML (&quot;, &#039;, etc.)
 // Este helper las decodifica usando el propio DOM del navegador.
 function decodeHtml(html) {
@@ -61,7 +72,15 @@ async function fetchFromOpenTrivia(amount) {
       const difficultyOk = ALLOWED_DIFFICULTIES.has(
         item.difficulty.trim().toLowerCase()
       );
-      return categoryOk && difficultyOk;
+      if (!categoryOk || !difficultyOk) return false;
+
+      // Excluimos preguntas cuyo formato no encaja con el nuestro (ver lista
+      // de prefijos arriba).
+      const questionEn = decodeHtml(item.question).trim().toLowerCase();
+      const hasExcludedPrefix = EXCLUDED_QUESTION_PREFIXES.some((prefix) =>
+        questionEn.startsWith(prefix)
+      );
+      return !hasExcludedPrefix;
     });
 
     const selected = filtered.slice(0, amount);
