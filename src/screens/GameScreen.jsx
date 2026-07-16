@@ -108,6 +108,21 @@ export default function GameScreen({ players, rounds, seconds, deck, onGameOver 
   return (
     <div className="stage">
       <div className="card">
+        <span
+          className={`source-badge ${
+            currentQuestion.source === 'propia'
+              ? 'source-badge-propia'
+              : 'source-badge-api'
+          }`}
+          title={
+            currentQuestion.source === 'propia'
+              ? 'Pregunta propia'
+              : 'Pregunta de Open Trivia DB'
+          }
+        >
+          {currentQuestion.source === 'propia' ? 'OPI' : 'ODDB'}
+        </span>
+
         <div className="turn-tag">Turno de {currentPlayer}</div>
         <div className="progress-text">
           Pregunta {turnIndex + 1} de {totalTurns}
