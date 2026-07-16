@@ -321,6 +321,28 @@ input[type='number'] {
   color: var(--bulb);
 }
 
+.btn-ghost {
+  width: 100%;
+  background: transparent;
+  border: 1px dashed rgba(169, 166, 184, 0.4);
+  color: var(--paper-dim);
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 0.85rem;
+  margin-top: 14px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-ghost:hover {
+  border-color: var(--miss);
+  color: var(--miss);
+}
+
+.btn-ghost:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
 /* ---------- Game over screen ---------- */
 
 .ranking-list {
