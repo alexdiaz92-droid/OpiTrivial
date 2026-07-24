@@ -1,10 +1,16 @@
 import { useState } from 'react';
 
+function parseClamped(value, min, max, fallback) {
+  const n = parseInt(value, 10);
+  if (Number.isNaN(n)) return fallback;
+  return Math.min(max, Math.max(min, n));
+}
+
 export default function SetupScreen({ onStart, error: externalError }) {
   const [players, setPlayers] = useState([]);
   const [nameInput, setNameInput] = useState('');
-  const [rounds, setRounds] = useState(3);
-  const [seconds, setSeconds] = useState(20);
+  const [roundsInput, setRoundsInput] = useState('3');
+  const [secondsInput, setSecondsInput] = useState('20');
   const [error, setError] = useState('');
 
   function addPlayer() {
@@ -35,6 +41,8 @@ export default function SetupScreen({ onStart, error: externalError }) {
       setError('Añade al menos un jugador para empezar.');
       return;
     }
+    const rounds = parseClamped(roundsInput, 1, 20, 3);
+    const seconds = parseClamped(secondsInput, 5, 120, 20);
     onStart({ players, rounds, seconds });
   }
 
@@ -88,8 +96,11 @@ export default function SetupScreen({ onStart, error: externalError }) {
             type="number"
             min="1"
             max="20"
-            value={rounds}
-            onChange={(e) => setRounds(Math.max(1, Number(e.target.value)))}
+            value={roundsInput}
+            onChange={(e) => setRoundsInput(e.target.value)}
+            onBlur={() =>
+              setRoundsInput(String(parseClamped(roundsInput, 1, 20, 3)))
+            }
           />
         </div>
 
@@ -100,8 +111,11 @@ export default function SetupScreen({ onStart, error: externalError }) {
             type="number"
             min="5"
             max="120"
-            value={seconds}
-            onChange={(e) => setSeconds(Math.max(5, Number(e.target.value)))}
+            value={secondsInput}
+            onChange={(e) => setSecondsInput(e.target.value)}
+            onBlur={() =>
+              setSecondsInput(String(parseClamped(secondsInput, 5, 120, 20)))
+            }
           />
         </div>
 
