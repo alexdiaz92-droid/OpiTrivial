@@ -28,6 +28,7 @@ html, body, #root {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--ink);
   background-image:
     radial-gradient(ellipse 80% 50% at 50% -10%, rgba(245, 185, 66, 0.10), transparent),
@@ -116,6 +117,7 @@ input[type='number'] {
 
 .player-input-row input {
   flex: 1;
+  min-width: 0;
 }
 
 .btn-bulb {
@@ -163,8 +165,10 @@ input[type='number'] {
 
 .config-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
   margin-bottom: 14px;
 }
 
@@ -421,5 +425,16 @@ input[type='number'] {
   * {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
+  }
+}
+
+/* Móviles muy estrechos */
+@media (max-width: 380px) {
+  .card {
+    padding: 28px 20px;
+  }
+
+  .marquee-title {
+    font-size: 1.7rem;
   }
 }
